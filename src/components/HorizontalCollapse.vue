@@ -12,36 +12,35 @@
   const activeIndex = ref(0);
   const items = [
     {
-        icon: `<img src="src/assets/images/Profile.png" alt="">`,
-        content: `
-            <div class="horizontal-collapse__body py-[5%] px-[15%] flex justify-center items-center gap-[150px] overflow-hidden">
-             <img src="src/assets/images/me.png" alt="me" width="455px" height="640px">
-             <div class="w-fit">
-              <div class="w-fit">
-                <h1><strong>Abdulla Yerezhep</strong></h1>
-                <h1 class="mt-2 font-thin">UX/UI Designer & Fullstack Developer</h1>
-              </div>
-              <div class="mt-10">
-                <h1 class="font-bold">About me</h1>
-                <p class="mt-12 text-lg">Hello there! I'm Abdulla, a 24-year-old tech enthusiast from the beautiful country of Kazakhstan. I wear multiple hats in the world of technology, serving as both a creative UX/UI Designer and a proficient Fullstack Developer.<br><br>
-                  My journey in the realm of software creation is fueled by a burning passion. I thrive on the art of designing user experiences that are not only visually appealing but also incredibly intuitive. On the other side of the spectrum, I dive deep into coding to construct powerful, efficient, and feature-rich applications.<br><br>
-                  My portfolio showcases the results of this passion—a collection of projects that reflect my dedication to pushing the boundaries of what's possible in the world of technology. Explore my work and discover how I blend creativity with functionality to create software that makes a difference.
-                  Welcome to my digital world of innovation and design! 🚀</p>
-                <button class="mt-12 bg-white text-black">Contact me</button>
-                </div>
-              </div>
-            </div>`,
+        icon: `<img src="/images/Profile.png" alt="">`,
+        content: `<div class="horizontal-collapse__body py-[5%] px-[15%] flex justify-center items-center gap-[150px] overflow-hidden">
+                    <img src="/images/me.png" alt="me" width="455px" height="640px">
+                    <div class="w-fit">
+                     <div class="w-fit">
+                       <h1><strong>Abdulla Yerezhep</strong></h1>
+                       <h1 class="mt-2 font-thin">UX/UI Designer & Fullstack Developer</h1>
+                     </div>
+                     <div class="mt-10">
+                       <h1 class="font-bold">About me</h1>
+                       <p class="mt-12 text-lg">Hello there! I'm Abdulla, a 24-year-old tech enthusiast from the beautiful country of Kazakhstan. I wear multiple hats in the world of technology, serving as both a creative UX/UI Designer and a proficient Fullstack Developer.<br><br>
+                         My journey in the realm of software creation is fueled by a burning passion. I thrive on the art of designing user experiences that are not only visually appealing but also incredibly intuitive. On the other side of the spectrum, I dive deep into coding to construct powerful, efficient, and feature-rich applications.<br><br>
+                         My portfolio showcases the results of this passion—a collection of projects that reflect my dedication to pushing the boundaries of what's possible in the world of technology. Explore my work and discover how I blend creativity with functionality to create software that makes a difference.
+                         Welcome to my digital world of innovation and design! 🚀</p>
+                       <button class="mt-12 bg-white text-black">Contact me</button>
+                       </div>
+                     </div>
+                  </div>`,
             color: '#7DCE94'
     },
  
     {
-        icon: `<img src="src/assets/images/Work.png" alt="">`,
+        icon: `<img src="/images/Work.png" alt="">`,
         content: `<div class="w-full horizontal-collapse__body flex flex-col items-center py-5 px-14 text-[#393939]">
             <h1 class="font-bold">Design Projects</h1>
             <div class="flex justify-between">
               <div class="flex w-[30%] mt-10">
                   <div class="flex flex-col justify-start gap-2">
-                    <img src="src/assets/images/project1.png" alt="">
+                    <img src="/images/project1.png" alt="">
                     <h2>Construction Marketplace</h2>
                     <p>Mobile app for connecting construction workers with marketplace.</p>
                     <div class="flex gap-5 items-center">
@@ -52,7 +51,7 @@
               </div>
               <div class="flex w-[30%] mt-10">
                   <div class=" flex flex-col justify-start gap-2">
-                    <img src="src/assets/images/project1.png" alt="">
+                    <img src="/images/project1.png" alt="">
                     <h2>Construction Marketplace</h2>
                     <p>Mobile app for connecting construction workers with marketplace.</p>
                     <div class="flex gap-5 items-center">
@@ -63,7 +62,7 @@
               </div>
               <div class="flex w-[30%] mt-10">
                   <div class="flex flex-col justify-start gap-2">
-                    <img src="src/assets/images/project1.png" alt="">
+                    <img src="/images/project1.png" alt="">
                     <h2>Construction Marketplace</h2>
                     <p>Mobile app for connecting construction workers with marketplace.</p>
                     <div class="flex gap-5 items-center">
@@ -78,7 +77,7 @@
             <div class="flex justify-between">
               <div class="flex w-[30%] mt-10">
                   <div class="flex flex-col justify-start gap-2">
-                    <img src="src/assets/images/project1.png" alt="">
+                    <img src="/images/project1.png" alt="">
                     <h2>Construction Marketplace</h2>
                     <p>Mobile app for connecting construction workers with marketplace.</p>
                     <div class="flex gap-5 items-center">
@@ -89,7 +88,7 @@
               </div>
               <div class="flex w-[30%] mt-10">
                   <div class=" flex flex-col justify-start gap-2">
-                    <img src="src/assets/images/project1.png" alt="">
+                    <img src="/images/project1.png" alt="">
                     <h2>Construction Marketplace</h2>
                     <p>Mobile app for connecting construction workers with marketplace.</p>
                     <div class="flex gap-5 items-center">
@@ -100,7 +99,7 @@
               </div>
               <div class="flex w-[30%] mt-10">
                   <div class="flex flex-col justify-start gap-2">
-                    <img src="src/assets/images/project1.png" alt="">
+                    <img src="/images/project1.png" alt="">
                     <h2>Construction Marketplace</h2>
                     <p>Mobile app for connecting construction workers with marketplace.</p>
                     <div class="flex gap-5 items-center">
@@ -114,9 +113,9 @@
         color:'white'
     },
     {
-        icon: `<img width="30px" height="30px" src="src/assets/images/File.png" alt="">`,
+        icon: `<img width="30px" height="30px" src="/images/File.png" alt="">`,
         content: ` <div class="w-full horizontal-collapse__body flex flex-col items-center py-5 px-[10%] text-white relative">
-          <button class="absolute right-0 top-0 bg-[#393939]"><img src="src/assets/images/download.png" alt=""></button>
+          <button class="absolute right-0 top-0 bg-[#393939]"><img src="/images/download.png" alt=""></button>
           <h1 class="w-full font-bold text-start">Resume</h1>
           <div class="px-[20%] flex mt-14 w-full justify-around">
             <div class="text-start w-[50%]">
