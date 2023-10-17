@@ -7,7 +7,7 @@
     role="button"
   >
   <div class="js-horizontal-collapse-item-inner horizontal-collapse__item-inner">
-      <div class="horizontal-collapse__inactive-content pl-3 pt-1" v-html="item.icon"></div>
+      <div class="horizontal-collapse__inactive-content" :class="[!isActive ? 'flex justify-center' : 'pl-1']" v-html="item.icon"></div>
       <div v-if="isActive" class="horizontal-collapse__active-content" v-html="item.content"></div>
   </div>
   </li>
