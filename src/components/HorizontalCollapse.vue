@@ -13,7 +13,7 @@
   const items = [
     {
         icon: `<img src="/images/Profile.png" alt="">`,
-        content: `<div class="horizontal-collapse__body py-[5%] px-[15%] flex justify-center items-center gap-[150px] overflow-hidden">
+        content: `<div class="horizontal-collapse__body pt-[2%] px-[15%] flex justify-center items-center gap-[150px] overflow-hidden">
                     <img src="/images/me.png" alt="me" width="455px" height="640px">
                     <div class="w-fit">
                      <div class="w-fit">
@@ -24,7 +24,6 @@
                        <h1 class="font-bold">About me</h1>
                        <p class="mt-12 text-lg">Hello there! I'm Abdulla, a 24-year-old tech enthusiast from the beautiful country of Kazakhstan. I wear multiple hats in the world of technology, serving as both a creative UX/UI Designer and a proficient Fullstack Developer.<br><br>
                          My journey in the realm of software creation is fueled by a burning passion. I thrive on the art of designing user experiences that are not only visually appealing but also incredibly intuitive. On the other side of the spectrum, I dive deep into coding to construct powerful, efficient, and feature-rich applications.<br><br>
-                         My portfolio showcases the results of this passion—a collection of projects that reflect my dedication to pushing the boundaries of what's possible in the world of technology. Explore my work and discover how I blend creativity with functionality to create software that makes a difference.
                          Welcome to my digital world of innovation and design! 🚀</p>
                        <button class="mt-12 bg-white text-black">Contact me</button>
                        </div>
